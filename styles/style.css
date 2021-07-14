@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.first-section{
+    background-color: blanchedalmond;
+    color: black;
+}
+.top-blog{
+    display: flex;
+}
+.top-blog img{
+    width: 700px;
+    margin-top: 70px;
+    margin-left: 75%;
+}
+.first-part h1{
+    font-size: 60px;
+    font-family: 'Otomanopee One', sans-serif;
+    margin-top: 90px;
+    width: 450px;
+    margin-left: 25%;
+}
+.button-1{
+    padding: 15px 25px;
+    border: 3px solid;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: orangered;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 25%;
+}
