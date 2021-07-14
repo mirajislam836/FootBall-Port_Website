@@ -6,6 +6,14 @@
 body{
     font-family: 'Noto Sans', sans-serif;
 }
+.container{
+    margin: 0 15px;
+    padding: 0 auto;
+    width: 80%;
+}
+
+
+        /* first-section start */
 .first-section{
     background-color: blanchedalmond;
     color: black;
@@ -35,3 +43,117 @@ body{
     margin-top: 30px;
     margin-left: 25%;
 }
+        /* first-section end */
+
+        /* All Players section start */
+
+.all-players{
+    border:10 px solid gray ;
+    margin-right: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 90px;
+    margin-top: 8%;
+    margin-left: 10%;
+    
+}
+.player{
+    border: 5px solid whitesmoke;
+    padding: 40px 40px;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 9%;
+    border-radius: 15px;
+   
+}
+.player img{
+    width: 100%px;
+    height: 330px;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 20px;
+    
+    
+}
+.player h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.player p{
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 3%;}
+    
+    /* all players section end */
+
+    /* section-three start */
+.last-blog{
+        display: flex;
+        
+    }
+    .last-blog img{
+        width: 620px;
+        margin-top: 70px;
+        margin-left: 75%;
+        border-radius: 10px;
+    }
+    .last-part h1{
+        font-size: 60px;
+        font-family: 'Otomanopee One', sans-serif;
+        margin-top: 90px;
+        width: 450px;
+        margin-left: 25%;
+    }
+
+    .last-part p{
+        width: 700px;
+        line-height: 30px;
+        margin-top: 30px;
+        margin-left: 13%;
+        font-size: 18px;
+    }
+    .button-2{
+        padding: 15px 25px;
+        border: 3px solid;
+        border-radius: 15px;
+        color: whitesmoke;
+        background-color: orangered;
+        font-size: 24px;
+        margin-top: 30px;
+        margin-left: 25%;
+    }
+
+       /* footer start  */
+
+       footer{
+           margin-top: 70px;
+       }
+.logo{
+    margin-left: 20%;
+}
+.icon{
+    display: flex;
+    font-size: 40px;
+   justify-content: center;
+   margin-left: 15px;
+   color: gray;
+   
+}
+
+h3{
+    line-height: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+
+
+
